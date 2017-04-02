@@ -1,0 +1,89 @@
+{
+  "schedules": [
+    {
+      "date": "2016-11-11T09:39:00+01:00",
+      "updated": "2016-11-11T09:39:00+01:00",
+      "teachers-absent": [
+        "Her",
+        "Tess",
+        "Men",
+        "Klm",
+        "Dop"
+      ],
+      "classes-absent": [],
+      "classes-affected": [],
+      "messages": [],
+      "schedule-item-ids": [
+        "0001"
+      ] 
+    }
+  ],
+  "items": [
+    {
+      "id": "0001",
+      "classes-affected": [
+        "Q2"
+      ],
+      "time": "3-5",
+      "absent": "+",
+      "substitute": "Her",
+      "room": "201",
+      "info": "",
+      "cancelled": ""
+    }
+  ],
+  "teachers": [
+    {
+      "id": "Dfe",
+      "realName": "Dfe"
+    },
+    {
+      "id": "Tes",
+      "realName": "Tes"
+    },
+    {
+      "id": "Adr",
+      "realName": "Adr"
+    },
+    {
+      "id": "Eik",
+      "realName": "Eik"
+    },
+    {
+      "id": "Fu",
+      "realName": "Fu"
+    },
+    {
+      "id": "Jka",
+      "realName": "Jka"
+    },
+    {
+      "id": "Kth",
+      "realName": "Kth"
+    },
+    {
+      "id": "Kop",
+      "realName": "Kop"
+    },
+    {
+      "id": "Lan",
+      "realName": "Lan"
+    },
+    {
+      "id": "Loh",
+      "realName": "Loh"
+    },
+    {
+      "id": "MSl",
+      "realName": "MSl"
+    },
+    {
+      "id": "Nid",
+      "realName": "Nid"
+    },
+    {
+      "id": "Stl",
+      "realName": "Stl"
+    }
+  ]
+}
