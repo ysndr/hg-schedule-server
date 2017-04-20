@@ -2,8 +2,8 @@ const _ = require('lodash')
 const express = require('express')
 const router = express.Router()
 
-const schools = require('../../features/school').api
-const schedule = require('../../features/schedule/').api
+const schools = require('../../api/school/')
+const schedule = require('../../api/schedule/')
 
 
 router.route('/schools')

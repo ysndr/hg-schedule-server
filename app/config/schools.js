@@ -5,9 +5,11 @@ schools = module.exports = [
     variant: 'SEK-1',
     schoolId: 'hg-bi-sek1',
     web: {
-      base: 'http://127.0.0.1:8080',
+      baseUrl: 'http://127.0.0.1:8080/',
       start: 'sched_info.subst01.html',
-      auth: ''
+      headers: {
+        Authorization: ''
+      }
     },
     teachers: [{
         id: "Dfe",
@@ -55,12 +57,13 @@ schools = module.exports = [
     variant: 'SEK-2',
     schoolId: 'hg-bi-sek2',
     web: {
-      base: 'http://vplansek2.bielefeld-gym-heho.logoip.de/',
+      baseUrl: 'http://vplansek2.bielefeld-gym-heho.logoip.de/',
       start: 'subst_001.htm',
-      auth: 'Basic eWFubmlrLnNhbmRlcjpnYW51NA==',
-      http_options: {
-        rejectUnauthorized: false
-      }
+      headers: {
+      //  Authorization: 'Basic eWFubmlrLnNhbmRlcjpnYW51NA==',
+      },
+      // SSL
+      rejectUnauthorized: false
     },
     teachers: []
   }
