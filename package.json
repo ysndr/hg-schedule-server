@@ -7,8 +7,8 @@
     "test": "mocha 'app/**/*.test.js'",
     "run": "node ./app/app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": ""
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.4.1",
     "cheerio": "^0.20.0",
@@ -17,10 +17,9 @@
     "iconv": "^2.2.1",
     "iconv-lite": "^0.4.15",
     "lodash": "^4.13.1",
-    "memory-cache": "^0.1.6",
     "moment": "^2.14.1",
-    "mongoose": "^4.5.4",
-    "request-promise": "^4.1.1"
+    "request-promise": "^4.1.1",
+    "scrape-it": "^3.3.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
