@@ -4,7 +4,8 @@ const merge = require('./merge')
 const _ = require('lodash')
 const cheerio = require('cheerio')
 const queries = require("../config/queries")
-const Iconv = require('iconv').Iconv
+// const Iconv = require('iconv').Iconv
+const iconv = require('iconv-lite')
 
 
 
@@ -46,7 +47,7 @@ function log(conn) {
 
 
 function toUTF8(body) {
-  return new Iconv('ISO-8859-1', 'utf-8').convert(body).toString('utf-8')
+  return iconv.decode(body, 'ISO-8859-1')
 }
 
 function toCheerio(html) {
