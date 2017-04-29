@@ -4,9 +4,11 @@ const app = express()
 
 const routes = require('./routes/');
 
+const port = process.env["app_port"] || 3000
+
 app.use('/api', routes.api);
 
 
-app.listen(3000, () => {
-    console.log('running on port 3000')
+app.listen(port, () => {
+    console.log(`running on port ${port}`)
 })
