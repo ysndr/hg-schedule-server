@@ -8,8 +8,8 @@ schools = module.exports = [
       baseUrl: 'http://vplansek1.bielefeld-gym-heho.logoip.de/',
       start: 'subst_001.htm',
       headers: {
-        Authorization: ''
-      }
+      },
+      rejectUnauthorized: false
     },
     teachers: [{
         id: "Dfe",
