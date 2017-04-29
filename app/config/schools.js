@@ -5,8 +5,8 @@ schools = module.exports = [
     variant: 'SEK-1',
     schoolId: 'hg-bi-sek1',
     web: {
-      baseUrl: 'http://127.0.0.1:8080/',
-      start: 'sched_info.subst01.html',
+      baseUrl: 'http://vplansek1.bielefeld-gym-heho.logoip.de/',
+      start: 'subst_001.htm',
       headers: {
         Authorization: ''
       }
