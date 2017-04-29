@@ -60,7 +60,6 @@ schools = module.exports = [
       baseUrl: 'http://vplansek2.bielefeld-gym-heho.logoip.de/',
       start: 'subst_001.htm',
       headers: {
-      //  Authorization: 'Basic eWFubmlrLnNhbmRlcjpnYW51NA==',
       },
       // SSL
       rejectUnauthorized: false
