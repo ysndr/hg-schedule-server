@@ -5,7 +5,7 @@
   "main": "app/index.js",
   "scripts": {
     "test": "mocha 'app/**/*.test.js'",
-    "start": "node ./app"
+    "start": "node ./app/index.js"
   },
   "author": "ysndr",
   "repository": "github.com/ysndr/hg-schedule-server",
