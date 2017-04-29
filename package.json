@@ -1,13 +1,15 @@
 {
   "name": "test01",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Server for HG-Schedule Android App",
+  "main": "app/index.js",
   "scripts": {
     "test": "mocha 'app/**/*.test.js'",
-    "run": "node ./app/app.js"
+    "start": "node ./app"
   },
-  "author": ""
+  "author": "ysndr",
+  "repository": "github.com/ysndr/hg-schedule-server",
+  "private": true,
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.4.1",
@@ -15,7 +17,6 @@
     "express": "^4.14.0",
     "http-status-codes": "^1.1.6",
     "iconv": "^2.2.1",
-    "iconv-lite": "^0.4.15",
     "lodash": "^4.13.1",
     "moment": "^2.14.1",
     "request-promise": "^4.1.1",
