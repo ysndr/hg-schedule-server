@@ -1,5 +1,5 @@
 const _ = require('lodash')
-const schools = require('../../config/schools')
+const schools = require('../../config/schools')()
 
 module.exports = {
   listSchools(req, res) {

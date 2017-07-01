@@ -1,6 +1,6 @@
 const _ = require('lodash')
 const statusCodes = require('http-status-codes')
-const schools = require('../../config/schools')
+const schools = require('../../config/schools')()
 const fetch = require('../../functions/fetch')
 const merge = require('../../functions/merge')
 

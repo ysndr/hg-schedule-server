@@ -1,4 +1,4 @@
-schools = module.exports = [
+schools = module.exports = () => [
 
   {
     name: 'Helmholtz-Gymnasium Bielefeld',
