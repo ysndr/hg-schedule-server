@@ -1,5 +1,5 @@
 {
-  "name": "test01",
+  "name": "hgschedule",
   "version": "1.0.0",
   "description": "Server for HG-Schedule Android App",
   "main": "app/index.js",
